@@ -10,8 +10,8 @@ dotenv.config();
 const app = express();
 const server = http.createServer(app);
 const allowedOrigins = [
+  "https://my-e2g2v25gp-yadavry09-gmailcom.vercel.app",
   "http://localhost:3000",
-  "https://my-e2g2v25gp-yadavry09-gmailcom.vercel.app/",
 ];
 
 const io = socketIo(server, {
