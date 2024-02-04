@@ -11,7 +11,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://my-hqwnu131d-yadavry09-gmailcom.vercel.app/",
     methods: ["GET", "POST"],
   },
 });
