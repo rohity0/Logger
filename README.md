@@ -7,7 +7,7 @@ A Socket.IO server that logs updates to a file and notifies connected clients.
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/rohity0/Logger.git
     ```
 
 2. **Install dependencies:**
