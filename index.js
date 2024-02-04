@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 const server = http.createServer(app);
 const allowedOrigins = [
-  "https://my-e2g2v25gp-yadavry09-gmailcom.vercel.app",
+  "https://my-app-psi-pearl.vercel.app",
   "http://localhost:3000",
 ];
 
