@@ -9,9 +9,11 @@ dotenv.config();
 
 const app = express();
 const server = http.createServer(app);
+const allowedOrigins = ["http://localhost:3000", "https://logger-service-lsjm.onrender.com"];
+
 const io = socketIo(server, {
   cors: {
-    origin: "https://my-hqwnu131d-yadavry09-gmailcom.vercel.app/",
+    origin: allowedOrigins,
     methods: ["GET", "POST"],
   },
 });
